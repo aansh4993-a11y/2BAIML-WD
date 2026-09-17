@@ -4,7 +4,7 @@ class BankAccount {
     constructor(accountNo, holderName, balance){
         this.accountNo = accountNo;
         this.holderName = holderName;
-        this.balance = balance;
+        this.balance = balance;0
     }
     deposit(amount){
         if (amount <= 0){

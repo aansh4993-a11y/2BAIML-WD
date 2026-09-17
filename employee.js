@@ -22,9 +22,10 @@ class manager extends employee{
         return this.basicSalary + this.bonus;
     }
 }
-const emp1 = new employee(101,"Aman Verma",50000);
-const emp2 = new employee(102,"Priya Singh",60000);
+const emp1 = new employee(101,"Ansh Agarwal",500000);
+const emp2 = new employee(102,"Ashna Mehta",450000);
 
-const mgr1 = new manager(201,"Rahul Sharma",70000,10000);
+const mgr1 = new manager(201,"Glossy Gupta",70000,10000);
 emp1.displaySalary();
-
+emp2.displaySalary();
+mgr1.displaySalary();

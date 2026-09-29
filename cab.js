@@ -6,7 +6,7 @@ class Vehicle{
         this.distance = distance;
     }
     calculateFare(){
-        console.log("Base fare logic not defined for generic vehicle.");
+        console.log("Base fare calculation for Vehicle");
         return 0;
     }
     displayFare(){

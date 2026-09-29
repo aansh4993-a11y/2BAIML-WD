@@ -1,13 +1,13 @@
 const EventEmitter = require('events');
-const ud = new EventEmitter();
+const ansh = new EventEmitter();
 
-ud.on('greet',(name)=> {
+ansh.on('greet',(name)=> {
     console.log(`Hello ${name}`)
 
 })
-ud.on('exit',(num)=> {
+ansh.on('exit',(num)=> {
     console.log(`thankyou for visit ${num}`)
 })
 
-ud.emit('greet', 'ud')
-ud.emit('exit', 100)
+ansh.emit('greet', 'ansh')
+ansh.emit('exit', 100)
